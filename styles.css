@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+body{
+    background: #E7E6EA;
+}
+
+.navbar{
+    background: #E7E6EA;
+    font-family: 'Montserrat';
+    color:#4b5497;
+    padding: 3% 10% 2% 10%;
+}
+
+.navbar a{
+    font-size: 30px;
+}
+
+.title{
+    font-family: 'Montserrat';
+}
+
+.signup{
+    background: #E7E6EA;
+}
+
+#middle-container{
+    position: relative;
+    font-family: 'Poppins';
+    padding: 3% 10% 5% 10%;
+
+}
+
+#middle-container h1{
+    text-align: center;
+    padding: 2% 0% 3% 0%;
+    font-weight: 800;
+    font-family: 'Montserrat';
+
+}
+
+.features{
+    text-align: center;
+    background-color: #e0dfe3;
+    padding:20px 2px 5px 20px;
+
+}
+
+.f1{
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%; 
+}
+
+.f3{
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.features h3{
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.features p{
+    color: #0000009a;
+    padding: 0 5% 0 5%;
+    font-size: 120%;
+    
+}
+
+.featureicons{
+    width: 20%;
+}
+
+#signupbtn{
+    background-color: #3E4035;
+}
+
+#message{
+    text-align: center;
+    font-family: 'Poppins';
+    padding: 3% 10% 5% 10%;
+    background: #E7E6EA;
+    color: white; 
+}
+
+.profileicon{
+    width: 10%;
+    border-radius:40%;
+    text-align: center;
+    display: inline;
+}
+
+.carousel-item{
+    padding: 0% 15% 0% 15%;
+}
+
+.catchyline{
+    color: #000000;
+}
+
+.devmessage{
+    padding:2% 0 2% 0;
+    font-family: 'Poppins';
+    color: rgba(0, 0, 0, 0.703);
+    font-weight: 200;
+}
+
+.author{
+    font-family: 'Poppins';
+    padding: 0 0 0 3%;
+    font-size: 1.5rem;
+    color: #4e320b;
+}
+
+.name{
+    color: black;
+}
+
+.rotate{
+    transition: 1s ease;
+    }
+    
+.rotate:hover{
+    -webkit-transform: rotateZ(-5deg);
+    -ms-transform: rotateZ(-5deg);
+    transform: rotateZ(-5deg);
+    transition: 1s ease;
+    }
+
+    .catchyline {
+        color: black;
+        text-decoration: none;
+      }
+      
+      .catchyline {
+        background:
+          linear-gradient(
+            to right,
+            rgb(74, 82, 82),
+            rgb(194, 151, 65)
+          ),
+          linear-gradient(
+            to right,
+            rgba(255, 0, 0, 1),
+            rgba(255, 0, 180, 1),
+            rgba(0, 100, 200, 1)
+        );
+        background-size: 100% 3px, 0 3px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 400ms;
+      }
+      
+      .catchyline:hover {
+        background-size: 0 3px, 100% 3px;
+      }
