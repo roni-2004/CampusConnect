@@ -40,7 +40,7 @@ submit.addEventListener('click', () => {
 
   console.log(getCookie('access_token'));
 
-  fetch('http://143.110.254.118:3000/event', {
+  fetch('https://api.bharathshanmugam.dev/event', {
 	method: 'POST',
 	body: formData,
 	headers: {
