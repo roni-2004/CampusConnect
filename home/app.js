@@ -72,11 +72,11 @@ function renderAdminCard(location, title, users) {
 }
 
 if (getCookie('access_token') == null) {
-	window.location.replace('http://143.110.254.118:3000/login')
+	window.location.replace('https://api.bharathshanmugam.dev/login')
 }
 
 function registerEvent(registration_link) {
-	fetch(`http://143.110.254.118:3000/join?event_id=${registration_link}`, { 
+	fetch(`https://api.bharathshanmugam.dev/join?event_id=${registration_link}`, { 
 		method: 'POST',
 		headers: {	
 			'Authorization': `Bearer ${getCookie('access_token')}`
@@ -92,7 +92,7 @@ function registerEvent(registration_link) {
 	})
 }
 
-fetch('http://143.110.254.118:3000/event', {
+fetch('https://api.bharathshanmugam.dev/event', {
 	headers: {
 		'Authorization': `Bearer ${getCookie('access_token')}`
 	}

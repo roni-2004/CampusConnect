@@ -48,7 +48,7 @@ button.addEventListener('click', () => {
 		isAdmin: document.getElementById("isAdmin").checked
 	}
 
-	fetch('http://143.110.254.118:3000/login', {
+	fetch('https://api.bharathshanmugam.dev/login', {
 		method: 'POST',
 		body: JSON.stringify(data),
 		headers: {

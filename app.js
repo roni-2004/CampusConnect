@@ -5,7 +5,7 @@ async function signup(){
     console.log(email);
     console.log(password);
 
-    const rawRes = await fetch("http://143.110.254.118:3000/signup", {
+    const rawRes = await fetch("https://api.bharathshanmugam.dev/signup", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
