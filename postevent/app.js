@@ -49,6 +49,6 @@ submit.addEventListener('click', () => {
   })
   .then(response => {
     _status.style.visibility = 'hidden'
-    window.location.href = '/home';
+    window.location.href = '/home/';
   })
 });

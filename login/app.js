@@ -63,7 +63,7 @@ button.addEventListener('click', () => {
 			} else {
 				console.log(data.access_token);
 				setCookie('access_token', data.access_token, 1);
-				window.location.href = '/home';
+				window.location.href = '/home/';
 
 			}
 		})

@@ -20,7 +20,7 @@ async function signup(){
     const res = await rawRes.json();
     alert("Signup successful! Enter your credentials to Login.");
     // the below code redirects the user to the login page after signup
-    window.location.href = "/login";
+    window.location.href = "/login/";
 
 }
 
